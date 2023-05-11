@@ -1,0 +1,145 @@
+body {
+    background-color: grey;
+}
+
+
+
+.rect {
+    width: 450px;
+    height: 150px;
+    border: 7px solid red;
+    border-radius: 15px;
+    box-shadow: 6px 6px 0px rgb(117, 5, 117);
+    text-shadow: 2px 0px 3px red;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: white;
+    position: relative;
+    left: 35%;
+}
+
+.text1 {
+    font-style: italic;
+    line-height: 18px;
+}
+
+.container2 {
+    border: 5px solid green;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.box {
+    width: 230px;
+    height: 220px;
+    border: 7px solid red;
+    border-radius: 15px;
+    box-shadow: 6px 6px 0px rgb(117, 5, 117);
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px violet;
+    font-size: x-large;
+}
+
+.box2 {
+    margin: 0px 0px 0px 950px;
+    /* padding: 25px 5px 0px 5px; */
+    /* box-sizing: border-box; */
+}
+
+.img1 {
+    margin-top: 45px;
+}
+
+.box3 {
+    text-align: left;
+    margin: 80px 0px 20px 0px;
+}
+
+.box4 {
+    margin: 80px 0px 20px 950px;
+}
+
+#sub {
+    border-radius: 15px;
+    background-color: red;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+
+.fixed {
+    color: red;
+    text-shadow: 1px 1px black;
+    border: 7px solid red;
+    border-radius: 15px;
+    box-shadow: 6px 6px 0px rgb(117, 5, 117);
+    background-color: greenyellow;
+    width: 500px;
+    height: 70px;
+    position: fixed;
+    bottom: 17%;
+    left: 30%;
+}
+
+.fix1 {
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 200px;
+    text-align: center;
+    padding: 0px 20px 0px 40px;
+    font-style: italic;
+}
+
+.fix2 {
+    margin: 0px 60px 0px 300px;
+    text-align: center;
+    font-style: italic;
+}
+
+.container3 {
+    width: 750px;
+    margin: 20px 0px 0px 350px;
+    border: 7px solid rgb(117, 11, 117);
+    background-color: green;
+    text-align: center;
+    font-style: italic;
+}
+
+.h1 {
+    font-style: normal;
+}
+
+.fruits {
+    width: 370px;
+    background-color: rgb(225, 225, 86);
+}
+
+.vegetables {
+    width: 370px;
+    /* margin: 0px 0px 0px 10px; */
+    background-color: rgb(225, 225, 86);
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.others {
+    width: 755px;
+    margin: 0px 0px 0px 3px;
+    background-color: rgb(225, 225, 86);
+    font-size: 15px;
+}
+
+.hedit {
+    padding: 20px 0px 0px 0px;
+}
